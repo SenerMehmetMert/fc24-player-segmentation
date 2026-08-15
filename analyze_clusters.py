@@ -29,7 +29,7 @@ def analyze():
         top_players = cluster_data.nlargest(3, overall_col)[name_col].tolist()
         top_players_str = ", ".join(top_players)
 
-        print(f"📌 {role_name} (Oyuncu Sayısı: {player_count})")
+        print(f" {role_name} (Oyuncu Sayısı: {player_count})")
         print(f"   • En Yüksek Ortalamalı Yetenekler: {top_skills_str}")
         print(f"   • Örnek Oyuncular: {top_players_str}\n")
 
