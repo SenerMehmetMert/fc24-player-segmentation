@@ -60,7 +60,7 @@ def main():
     )
     file_path = f'outputs/cluster_{c_id}_top100.csv'
     top100_df.to_csv(file_path, index=False)
-    print(f'  ✅ Küme {c_id} Top 100 kaydedildi -> {file_path}')
+    print(f'   Küme {c_id} Top 100 kaydedildi -> {file_path}')
 
   print('\n--- TÜM İŞLEMLER BAŞARIYLA TAMAMLANDI ---')
 
